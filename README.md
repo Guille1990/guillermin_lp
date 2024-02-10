@@ -38,7 +38,9 @@ $ guill resumir fichero_origen.txt fichero_salida.txt
 #### Traducir
 
 Si necesitas traducir  el contenido de un fichero de texto a un idioma especifico puedes utilizar la instrucción `traducir` de _Guillermin LP_ indicando después de la palabra reservada `traducir` el nombre del archivo de origen y separado por uno o varios espacios el nombre del archivo de salida. 
+
 Para indicar el idioma del archivo de origen debes utilizar el flag `--de` asignándole mediante el operador igual `=` el identificador del idioma. 
+
 Para indicar el idioma de salida debes utilizar el flag `--a` asignándole mediante el operador igual `=` el identificador del idioma.
 
 ```shell
